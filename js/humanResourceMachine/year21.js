@@ -9,33 +9,16 @@
 // year21(5)
 
 
-
-
-
-
-// const year21 = (numeros) => {
-//   let total = 0
-
-//   for (let i = 0; i < numeros.length; i++) {
-//    total = total + numeros[i] 
-//   }
-
-//   return total
-// }
-
-// console.log(year21([1,2,3]))
-
-
 const year21 = (numeros) => {
   let total = 0;
 
   numeros.forEach((numero) => {
-    total = total + numero      
-
+    total = total + numero 
+  
   })
 
   return total  
 
 }
 
-console.log(year21([1, 2, 3]))
+console.log(year21([1, 2, 3, 4]))

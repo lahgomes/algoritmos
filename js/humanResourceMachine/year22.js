@@ -6,10 +6,12 @@ const year22 = (numero) => {
     const temp = anterior + resultado
     anterior = resultado
     resultado = temp   
+
+    console.log(resultado)
   
   }
 
   return resultado;
 }
 
-console.log(year22(15))
+console.log(year22(6))
