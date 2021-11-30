@@ -1,5 +1,5 @@
 const year28 = (numeros) => {
-  numeros.sort((a, b) => a - b);
+  numeros.sort;
   return numeros
 }
 
