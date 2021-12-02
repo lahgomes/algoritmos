@@ -18,4 +18,4 @@ const year30 = (numero) => {
   return newArray
 }
 
-console.log(year30(2))
+console.log(year30(2,1,3,4))
