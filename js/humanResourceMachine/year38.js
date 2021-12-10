@@ -1,5 +1,6 @@
 const year38 = (numero) => {  
-  return numero.split('') 
+  const string = numero.toString()
+  return string.split('') 
 }
 
-console.log(year38('123'))
+console.log(year38(123))
