@@ -1,5 +1,3 @@
-
-
 const isPrime = (num) => {
   
   for(let i = 2; i < num; i++)
